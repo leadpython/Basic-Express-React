@@ -1,7 +1,7 @@
 module.exports = {
   entry: './client/client.js',
   output: {
-    path: __dirname + '/client',
+    path: './client',
     filename: 'client.bundle.js'
   },
   module: {
@@ -14,6 +14,5 @@ module.exports = {
         }
       }
     ]
-  },
-  watch: true
+  }
 }
